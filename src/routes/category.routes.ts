@@ -18,4 +18,3 @@ router.put("/:id", authenticate, upload.single("image"), updateCategory);
 router.delete("/:id", authenticate, deleteCategory);
 
 export default router;
-    
